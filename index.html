@@ -3,13 +3,176 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Szymon Szymański</title>
+  <meta name="description" content="Szymon Szymański — personal portfolio and professional profile.">
+  <meta name="theme-color" content="#080b12">
+  <title>Szymon Szymański — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main>
-    <h1>Szymon Szymański</h1>
-    <p>Personal website coming soon.</p>
-    <a href="mailto:szymon@szymonsz.com">Contact me</a>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Szymon Szymański — home">
+        <span class="brand-mark">SS</span>
+        <span>Szymon Szymański</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#experience" data-i18n="navExperience">Experience</a>
+        <a href="#projects" data-i18n="navProjects">Projects</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+        <button class="language-toggle" type="button" aria-label="Zmień język na polski">
+          <span class="language-active">EN</span><span aria-hidden="true">/</span><span>PL</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span><span data-i18n="availability">Open to worthwhile conversations</span></p>
+        <h1><span data-i18n="heroLead">I make complicated work</span> <span class="gradient-text" data-i18n="heroAccent">simpler.</span></h1>
+        <p class="hero-summary" data-i18n="heroSummary">I’m Szymon — an e-commerce specialist focused on systems, automation and practical problem-solving.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects"><span data-i18n="seeWork">See my work</span><span aria-hidden="true">↘</span></a>
+          <a class="button button-secondary" href="mailto:szymon@szymonsz.com"><span data-i18n="emailMe">Email me</span><span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta" aria-label="Quick facts">
+          <div><strong data-i18n="locationValue">Poland</strong><span data-i18n="locationLabel">Based in</span></div>
+          <div><strong data-i18n="focusValue">E-commerce</strong><span data-i18n="focusLabel">Current focus</span></div>
+          <div><strong>PL / EN</strong><span data-i18n="languagesLabel">Languages</span></div>
+        </div>
+      </div>
+
+      <div class="portrait-card reveal" data-delay="1">
+        <div class="portrait-placeholder" role="img" aria-label="Placeholder for a professional portrait of Szymon">
+          <span class="portrait-initials">SS</span>
+          <span class="placeholder-label" data-i18n="photoPlaceholder">Professional portrait placeholder</span>
+        </div>
+        <div class="portrait-note">
+          <span data-i18n="portraitTitle">Your main photo goes here</span>
+          <small data-i18n="portraitHint">Vertical crop · natural light · simple background</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="about">
+      <div class="section-heading reveal">
+        <p class="section-number">01</p>
+        <div><p class="eyebrow" data-i18n="aboutEyebrow">About me</p><h2 data-i18n="aboutTitle">Practical thinking, translated into better systems.</h2></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="large-copy" data-i18n="aboutLead">I enjoy understanding how things work, finding unnecessary friction and building solutions that make everyday work clearer and faster.</p>
+          <p data-i18n="aboutBody">Replace this paragraph with a concise personal story: what you do now, what problems you are best at solving, and where you want to grow next. Two or three specific sentences will feel stronger than a long autobiography.</p>
+        </div>
+        <div class="principles reveal" data-delay="1">
+          <article><span>01</span><div><h3 data-i18n="principleOneTitle">Useful over flashy</h3><p data-i18n="principleOneBody">Solutions should improve real work, not only look impressive.</p></div></article>
+          <article><span>02</span><div><h3 data-i18n="principleTwoTitle">Learn by building</h3><p data-i18n="principleTwoBody">I learn quickly when knowledge is connected to a practical outcome.</p></div></article>
+          <article><span>03</span><div><h3 data-i18n="principleThreeTitle">Keep improving</h3><p data-i18n="principleThreeBody">Small, consistent refinements compound into reliable systems.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="experience">
+      <div class="section-heading reveal">
+        <p class="section-number">02</p>
+        <div><p class="eyebrow" data-i18n="experienceEyebrow">Experience & capabilities</p><h2 data-i18n="experienceTitle">Work that connects operations and technology.</h2></div>
+      </div>
+
+      <div class="experience-layout">
+        <article class="experience-card reveal">
+          <div class="experience-topline"><span data-i18n="roleDate">20XX — Present</span><span data-i18n="roleType">Professional experience</span></div>
+          <h3 data-i18n="roleTitle">E-commerce systems & automation</h3>
+          <p data-i18n="roleCompany">Company name or a privacy-friendly description</p>
+          <ul>
+            <li data-i18n="roleBulletOne">Describe one responsibility and the business problem it solves.</li>
+            <li data-i18n="roleBulletTwo">Add a measurable improvement: time saved, errors reduced or orders handled.</li>
+            <li data-i18n="roleBulletThree">Mention the systems and teams involved in the work.</li>
+          </ul>
+        </article>
+
+        <div class="skills reveal" data-delay="1">
+          <p class="eyebrow" data-i18n="toolbox">Current toolbox</p>
+          <div class="skill-tags">
+            <span>BaseLinker</span><span>IdoSell</span><span data-i18n="automation">Automation</span><span>Excel</span><span data-i18n="salesData">Sales data</span><span>HTML / CSS</span><span data-i18n="problemSolving">Problem solving</span><span data-i18n="aiTools">AI tools</span>
+          </div>
+          <p class="skills-note" data-i18n="skillsNote">We’ll refine this list so it reflects what you can confidently discuss and demonstrate.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="projects">
+      <div class="section-heading reveal">
+        <p class="section-number">03</p>
+        <div><p class="eyebrow" data-i18n="projectsEyebrow">Selected work</p><h2 data-i18n="projectsTitle">Proof is more convincing than a list of skills.</h2></div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-featured reveal">
+          <div class="project-visual visual-one"><span data-i18n="projectImage">Project image / interface placeholder</span></div>
+          <div class="project-content">
+            <p class="project-index">01 · <span data-i18n="caseStudy">Case study</span></p>
+            <h3 data-i18n="projectOneTitle">E-commerce workflow automation</h3>
+            <p data-i18n="projectOneBody">Explain the initial problem, what you changed and the result. Use numbers whenever they are available.</p>
+            <div class="project-tags"><span>BaseLinker</span><span data-i18n="automation">Automation</span><span data-i18n="operations">Operations</span></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-delay="1">
+          <div class="project-visual visual-two"><span data-i18n="projectImage">Project image / interface placeholder</span></div>
+          <div class="project-content">
+            <p class="project-index">02 · <span data-i18n="caseStudy">Case study</span></p>
+            <h3 data-i18n="projectTwoTitle">Sales-data analysis</h3>
+            <p data-i18n="projectTwoBody">A future case study for reporting, forecasting or turning sales data into a useful decision.</p>
+            <div class="project-tags"><span>Excel</span><span data-i18n="salesData">Sales data</span><span>AI</span></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-delay="2">
+          <div class="project-visual visual-three"><span data-i18n="projectImage">Project image / interface placeholder</span></div>
+          <div class="project-content">
+            <p class="project-index">03 · <span data-i18n="personalProject">Personal project</span></p>
+            <h3 data-i18n="projectThreeTitle">This portfolio</h3>
+            <p data-i18n="projectThreeBody">Document the design and development decisions behind szymonsz.com once the site is complete.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section shell" id="contact">
+      <div class="contact-card reveal">
+        <p class="eyebrow" data-i18n="contactEyebrow">Let’s talk</p>
+        <h2 data-i18n="contactTitle">Have an interesting problem or opportunity?</h2>
+        <p data-i18n="contactBody">Email is the best way to reach me. Add LinkedIn, GitHub and a downloadable CV here when they are ready.</p>
+        <a class="email-link" href="mailto:szymon@szymonsz.com">szymon@szymonsz.com <span aria-hidden="true">↗</span></a>
+        <div class="social-placeholders">
+          <span>LinkedIn · <em data-i18n="soon">soon</em></span><span>GitHub · <em data-i18n="soon">soon</em></span><span>CV · <em data-i18n="soon">soon</em></span>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer shell">
+    <p>© <span id="year"></span> Szymon Szymański</p>
+    <a href="#top"><span data-i18n="backToTop">Back to top</span> ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
