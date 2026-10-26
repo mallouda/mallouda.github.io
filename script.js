@@ -1,25 +1,27 @@
 const translations = {
   pl: {
-    skip: "Przejdź do treści", navAbout: "O mnie", navExperience: "Doświadczenie", navProjects: "Projekty", navContact: "Kontakt",
-    availability: "Otwarty na wartościowe rozmowy", heroLead: "Upraszczam", heroAccent: "skomplikowaną pracę.",
-    heroSummary: "Jestem Szymon — specjalista e-commerce skupiony na systemach, automatyzacji i praktycznym rozwiązywaniu problemów.",
-    seeWork: "Zobacz projekty", emailMe: "Napisz do mnie", locationValue: "Polska", locationLabel: "Lokalizacja", focusValue: "E-commerce", focusLabel: "Obecny kierunek", languagesLabel: "Języki",
-    photoPlaceholder: "Miejsce na profesjonalny portret", portraitTitle: "Tutaj pojawi się Twoje główne zdjęcie", portraitHint: "Pionowy kadr · naturalne światło · proste tło",
+    skip: "Przejdź do treści", navAbout: "O mnie", navExperience: "Doświadczenie", navEducation: "Wykształcenie", navContact: "Kontakt",
+    availability: "Operacje i automatyzacja e-commerce", heroLead: "Upraszczam", heroAccent: "skomplikowaną pracę.",
+    heroSummary: "Jestem Szymon. Konfiguruję i automatyzuję systemy, na których działają sklepy internetowe, żeby zamówienia wymagały mniej ręcznej pracy i powodowały mniej błędów.",
+    seeWork: "Zobacz doświadczenie", emailMe: "Napisz do mnie", locationValue: "Polska", locationLabel: "Lokalizacja", sinceLabel: "W e-commerce od", languagesLabel: "Języki",
     aboutEyebrow: "O mnie", aboutTitle: "Praktyczne myślenie przekładam na lepsze systemy.",
     aboutLead: "Lubię rozumieć, jak działają rzeczy, znajdować zbędne utrudnienia i tworzyć rozwiązania, dzięki którym codzienna praca staje się prostsza i szybsza.",
-    aboutBody: "Zastąp ten akapit krótką historią: czym zajmujesz się obecnie, jakie problemy rozwiązujesz najlepiej i w jakim kierunku chcesz się rozwijać. Dwa lub trzy konkretne zdania będą mocniejsze niż długa autobiografia.",
+    aboutBody: "Od 2024 roku pracuję w operacjach e-commerce, konfigurując i automatyzując systemy obsługi zamówień, na których opiera się sprzedawca internetowy. Mam wykształcenie informatyczne, a obecnie kończę studia magisterskie z zarządzania. Moja praca dyplomowa dotyczy wykorzystania AI w zarządzaniu sprzedażą w e-commerce.",
     principleOneTitle: "Użyteczność ponad efekt", principleOneBody: "Rozwiązania powinny usprawniać prawdziwą pracę, a nie tylko dobrze wyglądać.",
     principleTwoTitle: "Nauka przez działanie", principleTwoBody: "Najszybciej uczę się, gdy wiedza prowadzi do praktycznego rezultatu.",
     principleThreeTitle: "Ciągłe ulepszanie", principleThreeBody: "Małe, regularne usprawnienia składają się na niezawodne systemy.",
-    experienceEyebrow: "Doświadczenie i kompetencje", experienceTitle: "Praca łącząca operacje z technologią.", roleDate: "20XX — obecnie", roleType: "Doświadczenie zawodowe",
-    roleTitle: "Systemy e-commerce i automatyzacja", roleCompany: "Nazwa firmy lub opis bez ujawniania pracodawcy",
-    roleBulletOne: "Opisz jedno zadanie i problem biznesowy, który rozwiązuje.", roleBulletTwo: "Dodaj mierzalny rezultat: zaoszczędzony czas, mniej błędów lub obsłużone zamówienia.", roleBulletThree: "Wymień systemy i zespoły zaangażowane w pracę.",
-    toolbox: "Obecny zestaw narzędzi", automation: "Automatyzacja", salesData: "Dane sprzedażowe", problemSolving: "Rozwiązywanie problemów", aiTools: "Narzędzia AI", skillsNote: "Dopracujemy tę listę, aby odzwierciedlała umiejętności, które potrafisz pewnie omówić i pokazać.",
-    projectsEyebrow: "Wybrane projekty", projectsTitle: "Efekty przekonują bardziej niż lista umiejętności.", projectImage: "Miejsce na zdjęcie projektu / interfejs", caseStudy: "Studium przypadku", personalProject: "Projekt własny",
-    projectOneTitle: "Automatyzacja procesu e-commerce", projectOneBody: "Opisz problem początkowy, wprowadzone zmiany i rezultat. W miarę możliwości użyj liczb.", operations: "Operacje",
-    projectTwoTitle: "Analiza danych sprzedażowych", projectTwoBody: "Przyszłe studium przypadku dotyczące raportowania, prognozowania lub przełożenia danych na użyteczną decyzję.",
-    projectThreeTitle: "To portfolio", projectThreeBody: "Po ukończeniu strony opisz decyzje projektowe i techniczne stojące za szymonsz.com.",
-    contactEyebrow: "Porozmawiajmy", contactTitle: "Masz ciekawy problem lub propozycję?", contactBody: "Najłatwiej skontaktować się ze mną mailowo. Dodamy tutaj LinkedIn, GitHub i CV, gdy będą gotowe.", soon: "wkrótce", backToTop: "Wróć na górę"
+    experienceEyebrow: "Doświadczenie i umiejętności", experienceTitle: "Praca łącząca operacje z technologią.", roleDate: "2024 — obecnie", roleType: "Handel internetowy · Polska",
+    roleTitle: "Systemy e-commerce i automatyzacja",
+    roleBulletOne: "Konfiguruję i utrzymuję BaseLinkera oraz IdoSell w codziennej obsłudze zamówień.",
+    roleBulletTwo: "Projektuję akcje automatyczne i reguły, które zdejmują z zespołu powtarzalne czynności.",
+    roleBulletThree: "Tworzę własne szablony wydruków i eksportów dokumentów oraz danych.",
+    roleBulletFour: "Rozwiązuję problemy operacyjne i usprawniam procesy od początku do końca.",
+    toolbox: "Narzędzia", automation: "Automatyzacja procesów", templates: "Szablony wydruków i eksportów", troubleshooting: "Rozwiązywanie problemów", workflow: "Projektowanie procesów",
+    educationEyebrow: "Wykształcenie", educationTitle: "Techniczne podstawy, menedżerskie spojrzenie.",
+    eduOneDate: "2026 — 2027 (planowo)", eduOneTitle: "Studia magisterskie, Zarządzanie", eduOnePlace: "Uniwersytet WSB Merito, Poznań",
+    eduTwoTitle: "Studia inżynierskie, Informatyka", eduTwoPlace: "Uniwersytet WSB Merito, Poznań",
+    eduThreeTitle: "Technik informatyk", eduThreePlace: "Technikum TEB Edukacja, Poznań",
+    contactEyebrow: "Kontakt", contactTitle: "Masz ciekawy problem lub propozycję?", contactBody: "Najłatwiej skontaktować się ze mną mailowo.", backToTop: "Wróć na górę"
   }
 };
 
